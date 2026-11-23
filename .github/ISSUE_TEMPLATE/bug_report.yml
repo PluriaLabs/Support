@@ -58,7 +58,13 @@ body:
     id: attachments
     attributes:
       label: Attachments and context
-      description: |
-        Add screenshots, recordings, or the sample document if useful.
+      description: Add screenshots, recordings, or the sample document if useful.
+      value: |
+        _You can write in your own language. We will do our best to translate it._
 
-        For the most useful report, turn on **Record diagnostic log** in Settings ▸ General ▸ Diagnostics, make the problem happen again, then use **View Log ▸ Send Report ▸ Save Report** and drag the file here. If Pilcrow crashed, attach the report from Console ▸ Crash Reports as a `.txt` or `.zip` file.
+        _For the most useful report, turn on **Record diagnostic log** in Settings ▸ General ▸ Diagnostics, make the problem happen again, then send the report._
+
+        **Diagnostic report**
+
+        If you chose Help ▸ Report a Bug… in Pilcrow and copied the log, paste it below this line. Otherwise use Settings ▸ Diagnostics ▸ View Log ▸ Send Report ▸ Save Report and drag the file into this box. If Pilcrow crashed, attach the report from Console ▸ Crash Reports as a `.txt` or `.zip` file. Look through it first: anything you post here is public.
+
