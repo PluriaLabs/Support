@@ -66,5 +66,5 @@ body:
 
         **Diagnostic report**
 
-        If you chose Help ▸ Report a Bug… in Pilcrow and copied the log, paste it below this line. Otherwise use Settings ▸ Diagnostics ▸ View Log ▸ Send Report ▸ Save Report and drag the file into this box. If Pilcrow crashed, attach the report from Console ▸ Crash Reports as a `.txt` or `.zip` file. Look through it first: anything you post here is public.
+        If Pilcrow copied the log for you, click on the empty line below and press **Command-V** (**Ctrl-V** on a keyboard without Command) to paste it. Otherwise use Settings ▸ Diagnostics ▸ View Log ▸ Send Report ▸ Save Report and drag the file into this box. If Pilcrow crashed, attach the report from Console ▸ Crash Reports as a `.txt` or `.zip` file. Look through it first: anything you post here is public.
 
