@@ -5,4 +5,58 @@ title: "[Pilcrow] "
 body:
   - type: markdown
     attributes:
+      value: |
+        Report one problem per issue. Please search [open and closed issues](https://github.com/PluriaLabs/Support/issues?q=is%3Aissue) first; if your problem is already there, add what you know to that issue.
+
+        You can write in your own language. We will do our best to translate it.
+
+        **Issues here are public.** Look through anything you attach, including a diagnostic report, before you post it.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched open and closed issues and found no existing report covering this problem.
+          required: true
+        - label: I reproduced the problem with the latest version of Pilcrow.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe what happened and what you expected instead. Include any error messages.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Give the steps needed to make it happen again. If you do not know the trigger, describe what you were doing.
+      placeholder: |
+        1. Open a document...
+        2. Choose...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: The exact versions, not "latest". Pilcrow's Help ▸ Report a Bug fills this in for you.
+      placeholder: |
+        Pilcrow version:
+        System version:
+        Device and chip:
+    validations:
+      required: true
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Attachments and context
+      description: Add screenshots, recordings, or the sample document if useful.
       value: Paste (⌘-v) the application log here.
