@@ -1,0 +1,22 @@
+{
+  "start": "2027-01-01",
+  "end": "2027-03-31",
+  "items": [
+    {
+      "id": "example-open",
+      "status": "open",
+      "title": { "en": "An idea people can vote on", "es": "Una idea por la que se puede votar", "de": "Eine Idee, über die abgestimmt werden kann" },
+      "summary": { "en": "One or two sentences about it.", "es": "Una o dos frases sobre ella.", "de": "Ein bis zwei Sätze dazu." }
+    },
+    {
+      "id": "example-building",
+      "status": "building",
+      "title": { "en": "Something being built now" }
+    },
+    {
+      "id": "example-shipped",
+      "status": "shipped",
+      "title": { "en": "Something already released" }
+    }
+  ]
+}
