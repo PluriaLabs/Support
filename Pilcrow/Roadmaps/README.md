@@ -24,6 +24,9 @@ HTTPS from `https://raw.githubusercontent.com/PluriaLabs/Support/main/Pilcrow/Ro
 - `file` is a plain file name in this folder: letters, digits, `-`, `_` and `.`, ending in `.json`. No folders, no
   `..`, no leading dot. An entry that breaks this, or whose `start` is after its `end`, is ignored.
 - If two rounds overlap, the one that started later wins.
+- A round can name its own app icon with `"icon": "frost"` (a lower-case id such as `frost` or `gilt-foil`). Subscribers who
+  hold a paid month during the round earn that icon for good. The icon must already be in the app: a new one needs an app
+  update, so add it to Pilcrow a release ahead. An app too old to contain it says so; a bad id is ignored.
 - Add a round here **before** it begins if you want people to see "the next round opens on …".
 
 ## A round file
