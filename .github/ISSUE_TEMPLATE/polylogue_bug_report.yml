@@ -1,0 +1,70 @@
+name: Polylogue bug report
+description: Report a problem with Polylogue.
+title: "[Polylogue] "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report one problem per issue. Please search [open and closed issues](https://github.com/PluriaLabs/Support/issues?q=is%3Aissue) first; if your problem is already there, add what you know to that issue.
+
+        You can write in your own language. We will do our best to translate it.
+
+        **Issues here are public.** Never post a password, an API key, an access token or a private post, and check screenshots for other people's names and messages.
+
+        Problems with your account or with someone's posts go to your Mastodon server's moderators, not here.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched open and closed issues and found no existing report covering this problem.
+          required: true
+        - label: I reproduced the problem with the latest version of Polylogue.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe what happened and what you expected instead. Include any error messages.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Give the steps needed to make it happen again. If you do not know the trigger, describe what you were doing.
+      placeholder: |
+        1. Open a timeline...
+        2. Choose...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: The exact versions, not "latest".
+      placeholder: |
+        Polylogue version:
+        System version:
+        Device:
+        Server software (for example Mastodon) and version, if known:
+    validations:
+      required: true
+
+  - type: textarea
+    id: translation
+    attributes:
+      label: Translation details
+      description: For translation problems, give the post's language, your reading language, and whether Apple or an AI provider (which one) did the translating.
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Attachments and context
+      description: Add screenshots or recordings if useful.
